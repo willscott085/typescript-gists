@@ -45,3 +45,9 @@ function try_passing_null(not_null: {}) {}
 
 // @ts-expect-error
 try_passing_null(null);
+
+
+/**
+ * If you actualy want to type an empty object use
+ * Record<string, never>
+ */
