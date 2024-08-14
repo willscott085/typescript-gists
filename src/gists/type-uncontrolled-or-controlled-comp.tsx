@@ -31,3 +31,16 @@ const App = () => {
     </>
   );
 };
+
+
+/**
+ * 
+ * Using never could also work but only because
+ * never is reduced to undefined under the
+ * hood
+ * 
+ * {
+      onChange?: never;
+      value?: never;
+    }
+ */
